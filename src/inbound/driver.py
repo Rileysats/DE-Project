@@ -18,7 +18,7 @@ def build_spark_submit(kafka_type, mode):
         pass
 
     module_file = (
-        script_dir + "/KafkaConfig.py " +
+        script_dir + "/KafkaConfig.py" +
         script_dir + "/helpers.py"
     )
     
