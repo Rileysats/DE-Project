@@ -7,7 +7,7 @@ def build_spark_submit(kafka_type, mode):
         kafka_type = kafka_type.lower().capitalize()
 
     else:
-        raise Exception("type needs to be 'producer' or 'consumer'")
+        raise Exception("type needs to be 'producer' or 'consumer'") 
     
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
